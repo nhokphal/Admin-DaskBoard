@@ -20,21 +20,23 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
+  // height: 100vh;
   flex: 1;
   padding-left: 0;
   border-right: 0.5px solid lightgray;
 
   // Horizontal Line
-  hr {
+  hr{
     color: red;
-    height: 0px;
     border: 0.5px solid lightgray;
   }
 `;
 
 const Top = styled.div`
-  height: 100px;
+  // handle styling top
+  height: 70px;
   width: 200px;
+  padding: 8px;
   display: flex;
   align-item: center;
   font-size: 30px;
@@ -213,7 +215,6 @@ export const SideBar = () => (
       <Bottom>
         <div className="colorOption"></div>
         <div className="colorOption"></div>
-
       </Bottom>
     </Wrapper>
   </Container>

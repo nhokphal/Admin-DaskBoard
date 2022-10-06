@@ -58,5 +58,5 @@ export const Percentage = styled.div`
   &.negative {
     color: red;
   }
-`;
+`;  
 

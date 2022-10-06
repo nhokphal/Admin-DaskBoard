@@ -9,14 +9,12 @@ import { Widget } from "../../Widget/Widget";
 
 const Container = styled.div`
   display: flex;
-  // width: 100%;
 `;
 const Wrapper = styled.div`
   flex: 7;
 `;
 
 const Widgets = styled.div`
-  // width: 300hw;
   justify-content: space-between;
   display: flex;
   padding: 10px;

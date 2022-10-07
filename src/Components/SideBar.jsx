@@ -26,7 +26,7 @@ const Wrapper = styled.div`
   border-right: 0.5px solid lightgray;
 
   // Horizontal Line
-  hr{
+  hr {
     color: red;
     border: 0.5px solid lightgray;
   }
@@ -108,8 +108,7 @@ const Bottom = styled.span`
       background-color: grey;}
     &:nth-child(2){
       background-color: black;}
-   
-
+  
 `;
 
 export const SideBar = () => (

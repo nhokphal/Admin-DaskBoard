@@ -109,7 +109,7 @@ export const Feature = () => {
         <Bottom>
           <FeatureCart>
             {/* <CircularProgressbar value={70} text={"70%"}/> */}
-            <CircularProgressbar value={70} text={"70%"} strokeWidth={5} />
+            <CircularProgressbar value={80} text={"80%"} strokeWidth={5} />
           </FeatureCart>
           <Titles>
             <TitleSale>Total sales made today</TitleSale>

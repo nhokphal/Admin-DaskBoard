@@ -20,10 +20,11 @@ const data = [
   { name: "June", Total: 1700 },
 ];
 
-export const Chart = () => {
+export const Chart = ({ title }) => {
   return (
     <Container>
-        <Title>Last 6 Months Chart</Title>
+        {/* <Title>Last 6 Months Chart</Title> */}
+        {title}
         <ResponsiveContainer width="100%" aspect={3 / 1} >
           <AreaChart
             width={730}
